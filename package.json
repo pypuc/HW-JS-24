@@ -1,0 +1,22 @@
+{
+  "name": "hw-js-24",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://pypuc.github.io/HW-JS-24/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
